@@ -14,34 +14,16 @@ An exact port of Tabby/iTerm2's Hipster Green color scheme for Zed. This vibrant
 
 ## Features
 
-⚡ **Excellent Contrast** - All text is highly readable with proper contrast ratios  
-🎨 **Complete Coverage** - Consistent styling across all UI elements and syntax  
-👁️ **Eye-Friendly** - Perfect for long coding sessions without strain  
-🌟 **Classic Terminal Aesthetic** - Vibrant green terminal vibes  
+⚡ **Excellent Contrast** - All text is highly readable with proper contrast ratios
+🎨 **Complete Coverage** - Consistent styling across all UI elements and syntax
+👁️ **Eye-Friendly** - Perfect for long coding sessions without strain
+🌟 **Classic Terminal Aesthetic** - Vibrant green terminal vibes
 🔧 **Language Support** - Optimized syntax highlighting for HTML, JavaScript, Python, Rust, Go, C++, and more
 
 ## Screenshots
 
 ### General UI
-![General UI Overview](screenshots/general_ui.png)
-
-### HTML
-![HTML Example](screenshots/html.png)
-
-### JavaScript
-![JavaScript Example](screenshots/js.png)
-
-### Python
-![Python Example](screenshots/python.png)
-
-### Rust
-![Rust Example](screenshots/rust.png)
-
-### Go
-![Go Example](screenshots/go.png)
-
-### C++
-![C++ Example](screenshots/cpp.png)
+![General UI Overview](screenshots/hipster_green_zed.png)
 
 ## Installation
 
