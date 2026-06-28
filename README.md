@@ -13,6 +13,9 @@ The extension ships **three variants** that share one identical palette and diff
 
 All three appear as separate entries in the Zed theme selector.
 
+<img width="1298" height="416" alt="Screenshot 2026-06-27 at 9 20 15 p m" src="https://github.com/user-attachments/assets/54e08c34-2cac-4a0b-a025-63062e0a6778" />
+
+
 ## Color Palette
 
 - **Background (editor/UI)** `#0b070a` — deep near-black
