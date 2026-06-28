@@ -56,4 +56,4 @@ MIT License (unchanged from upstream — see `LICENSE`). Feel free to modify and
 
 ---
 
-*Neon pink terminal vibes for modern code editors* 💗
+*Neon pink terminal* 💗
