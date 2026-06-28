@@ -1,54 +1,59 @@
-# 💚 Hipster Green Theme for Zed
+# 💗 Hipster Pink for Zed
 
-An exact port of Tabby/iTerm2's Hipster Green color scheme for Zed. This vibrant terminal-inspired theme brings the classic green-on-black aesthetic with modern syntax highlighting and excellent readability.
+A neon-pink-on-black retheme of [1ay1's Hipster Green Theme](https://github.com/1ay1/hipster-green-zed-theme).
+Same terminal-inspired structure, swapped to a vibrant magenta/pink palette with full UI, terminal and syntax coverage.
+
+The extension ships **three variants** that share one identical palette and differ **only** in the color used for strings, so you can pick the string accent that reads best for you:
+
+| Variant | String color |
+| --- | --- |
+| **Hipster Pink Cyan** | `#5DE0E6` |
+| **Hipster Pink Lavender** | `#B98AFF` |
+| **Hipster Pink Peach** | `#FFA07A` |
+
+All three appear as separate entries in the Zed theme selector.
 
 ## Color Palette
 
-- **Primary Green** (#84c138) - Main text and code
-- **Bright Cursor** (#23ff18) - Cursor and primary accents
-- **Light Green** (#86a93e) - Strings and emphasis
-- **Selection** (#083905) - Text selection background
-- **Background** (#100b05) - Deep dark brown/black base
-- **Cyan** (#00a6b2) - Functions and properties
-- **Yellow** (#e5e500) - Types and warnings
+- **Background (editor/UI)** `#0b070a` — deep near-black
+- **Base text** `#FF1493` — deep pink
+- **Primary accent** `#FE019A` — cursor, active borders, focus
+- **Secondary accent** `#FF8AD4`
+- **Elevated surface** `#1a0e16` — menus, active tab, hover
+- **Muted text** `#7d4a63` — line numbers, secondary text
 
-## Features
+### Syntax
 
-⚡ **Excellent Contrast** - All text is highly readable with proper contrast ratios
-🎨 **Complete Coverage** - Consistent styling across all UI elements and syntax
-👁️ **Eye-Friendly** - Perfect for long coding sessions without strain
-🌟 **Classic Terminal Aesthetic** - Vibrant green terminal vibes
-🔧 **Language Support** - Optimized syntax highlighting for HTML, JavaScript, Python, Rust, Go, C++, and more
+- **keyword** `#FF10F0` · **function** `#FE019A` · **number / constant** `#FF6EC7`
+- **type** `#FF77FF` · **variable** `#FFB3DE` · **operator / punctuation** `#D98AB8`
+- **comment** `#7d4a63` · **string** *(varies per variant — see table above)*
 
-## Screenshots
+### Terminal (ANSI)
 
-### General UI
-![General UI Overview](screenshots/hipster_green_zed.png)
+`red #FF3B6B` · `green #50C878` · `yellow #FFD166` · `blue #6EC1FF` · `magenta #FE019A` · `cyan #5DE0E6`
+(bright/dim slots are derived as lighter/darker shades of each base.)
+
+### Git status
+
+`added #50C878` · `modified #FFD166` · `deleted #FF3B6B`
 
 ## Installation
 
-### From Zed Extensions (Recommended)
-1. Open Zed
-2. Open the command palette (`Cmd+Shift+P` or `Ctrl+Shift+P`)
-3. Run "zed: Extensions"
-4. Search for "Hipster Green Theme"
-5. Click Install
-6. Select "Hipster Green Dark" from Theme Selector (`Cmd+K Cmd+T`)
-
 ### Manual Installation
 1. Clone or download this repository
-2. Place `hipster-green.json` in `~/.config/zed/themes/`
-3. Restart Zed
-4. Select "Hipster Green Dark" from Theme Selector
+2. Place `themes/hipster-pink.json` in `~/.config/zed/themes/`
+3. Open the Theme Selector (`Cmd+K Cmd+T`) and pick one of the three **Hipster Pink** variants
+
+Zed watches that folder, so edits to the JSON apply live on save — no restart needed.
 
 ## Credits
 
-Created by **Ayush Bhat** - An exact port of Tabby/iTerm2's Hipster Green color scheme.
+Forked from the **Hipster Green Theme** by **Ayush Bhat ([1ay1](https://github.com/1ay1))**, itself a port of Tabby/iTerm2's Hipster Green color scheme. Pink retheme and multi-variant split by this fork.
 
 ## License
 
-MIT License - Feel free to modify and share!
+MIT License (unchanged from upstream — see `LICENSE`). Feel free to modify and share!
 
 ---
 
-*Bringing retro terminal vibes to modern code editors* 💚
+*Neon pink terminal vibes for modern code editors* 💗
